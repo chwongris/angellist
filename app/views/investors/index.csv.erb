@@ -1,0 +1,3 @@
+<% @investors.each do |p| %>
+  <%= raw "\"#{p.name}\"" %>,<%= raw "\"#{p.bio}\"" %>,<%= raw "\"#{p.linkedin_url}\"" %>,<%= raw "\"#{p.investor}\"" %>,<%= raw "\"#{p.angel_id}\"" %>,<%= raw "\"#{p.blog_url}\"" %>
+<% end %>
